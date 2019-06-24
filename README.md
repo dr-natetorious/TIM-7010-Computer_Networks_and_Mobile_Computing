@@ -6,16 +6,16 @@ In this course, students will explore emerging issues in computer network design
 
 - **Section 1: Software Defined Networking**
   - [Week 1](Section1_SDN/Week1_Intro): Introduction
-  - [Week 2]: Challenges and Issues
+  - [Week 2] Challenges and Issues
 - **Section 2: Mobile Computing**
-  - [Week 3]: Introduction
-  - [Week 4]: Challenges and Issues
+  - [Week 3] Introduction
+  - [Week 4] Challenges and Issues
 - **Section 3: Internet of Things**
-  - [Week 5]: Introduction
-  - [Week 6]: Challenges and Issues
+  - [Week 5] Introduction
+  - [Week 6] Challenges and Issues
 - **Section 4: Research and Application**
-  - [Week 7]: Research Proposal
-  - [Week 8]: Reproduce an Experiment
+  - [Week 7] Research Proposal
+  - [Week 8] Reproduce an Experiment
 
 ## Course Learning Outcomes
 
