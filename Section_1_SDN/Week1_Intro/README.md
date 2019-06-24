@@ -1,3 +1,3 @@
-# Section 1: Week 2: Software Defined Networking: Introduction
+# Section 1: Week 2: Introduction to SDN
 
 TBD.
