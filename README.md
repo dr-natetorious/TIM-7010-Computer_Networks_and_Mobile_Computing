@@ -5,7 +5,7 @@ In this course, students will explore emerging issues in computer network design
 ## Sections
 
 - **Section 1: Software Defined Networking**
-  - [Week 1]: Introduction
+  - [Week 1](Section1_SDN/Week1_Intro): Introduction
   - [Week 2]: Challenges and Issues
 - **Section 2: Mobile Computing**
   - [Week 3]: Introduction
