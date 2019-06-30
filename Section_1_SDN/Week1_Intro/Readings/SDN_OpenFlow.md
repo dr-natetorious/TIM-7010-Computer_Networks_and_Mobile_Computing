@@ -1,6 +1,6 @@
 # SDN with OpenFlow; Azodolmolky (2013)
 
-In [this textbook](https://ebookcentral.proquest.com/lib/ncent-ebooks/detail.action?docID=1477475#?), Azodolmolky covers the implementation of SDN through OpenFlow. he continues with Python based examples for implementing different aspects of the SDN system.
+In [this textbook](https://ebookcentral.proquest.com/lib/ncent-ebooks/detail.action?docID=1477475&query=Software+Defined+Networking+with+OpenFlow), Azodolmolky covers the implementation of SDN through OpenFlow. he continues with Python based examples for implementing different aspects of the SDN system.
 
 ## Chapter 1: Introducing OpenFlow
 
