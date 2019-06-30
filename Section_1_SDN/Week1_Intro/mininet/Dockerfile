@@ -1,18 +1,13 @@
-FROM debian:stretch
+FROM python:3
 LABEL Author="Nate Bachmeier"
 LABEL Course="TIM-7010: Computer Networks and Mobile Computing"
 LABEL School="NorthCentral University"
 
-RUN apt-get -y update && yes yes | apt-get -y install \
-  mininet \
-  wireshark
+RUN apt-get -y update && apt-get -y install \
+  sudo
 
-# Setup VNC services for remote terminal
-RUN apt-get -y install \
-  xfce4 xfce4-goodies gnome-icon-theme tightvncserver sudo
-
-RUN adduser --disabled-password --gecos "vnc,vnc,vnc,vnc" vnc \
-  && gpasswd -a vnc sudo
-USER vnc
-
-EXPOSE 5901
+WORKDIR /git
+RUN git clone git://github.com/mininet/mininet \
+  && cd mininet \
+  && git checkout 2.2.2 \
+  && ./util/install.sh -a
