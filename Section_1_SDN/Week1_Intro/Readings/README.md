@@ -87,3 +87,16 @@ This [tutorial](Mininet_Walkthrough.pdf) was provided by the software manufactur
 It includes setup documentation and asks the user to configure `Wireshare` as a mechanism to monitor traffic between two simulated hosts.
 
 The notion of topologies is also introduced, which provide a consistent repeatable method to provision virtual network.
+
+### POX Github (2019)
+
+POX [started life as an OpenFlow Controller](https://github.com/noxrepo/pox/tree/eel/pox) but can now also function
+as an OpenFlow switch, and can be useful for writing networking software in general.
+
+As an open source project it is possible to read the source code and identify the implementation details of the controller itself.
+
+Their implementation is through a series of Python events, which can be registered by third-party `Modules`.
+
+When the events are raised, the Module can perform an `action` that transforms the e.g. packet however they see fit.
+
+For instance, an action might change the destination address or duplicate the traffic into a logging system.
