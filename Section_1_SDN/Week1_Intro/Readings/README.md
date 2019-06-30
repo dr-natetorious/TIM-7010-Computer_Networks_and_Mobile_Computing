@@ -70,6 +70,8 @@ This is followed with a breakdown of concrete advantages of NVF and SDN.
 - Reduce costs and "go green"
 - Increase transparency through consistent metrics
 
+The article concludes with describing challenges that are introduced by SDN/NFV. This should be revisited for week 2.
+
 ## How do I interace with SDN
 
 ### SDN with OpenFlow; Azodolmolky (2013)
@@ -77,3 +79,11 @@ This is followed with a breakdown of concrete advantages of NVF and SDN.
 In [this textbook](SDN_OpenFlow.md), Azodolmolky covers the implementation of SDN through OpenFlow. he continues with Python based examples for implementing different aspects of the SDN system. Given the breath of information its material has been split into separate document.
 
 The three most common controllers are: OpenDaylight, POX, and Floodlight.
+
+### Mininet Walkthrough (2019)
+
+This [tutorial](Mininet_Walkthrough.pdf) was provided by the software manufacture and provides a step-by-step approach to using the tool.
+
+It includes setup documentation and asks the user to configure `Wireshare` as a mechanism to monitor traffic between two simulated hosts.
+
+The notion of topologies is also introduced, which provide a consistent repeatable method to provision virtual network.
