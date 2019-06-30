@@ -14,3 +14,11 @@ The VNC guide is fairly straight forward but its becoming tedious to [automate w
 
 Instead a virtual machine was created using [debian-9.9.0 netinst](https://saimei.ftp.acc.umu.se/debian-cd/current/amd64/iso-cd/debian-9.9.0-amd64-netinst.iso); the latest stable build.
 
+Chapter 4 of the [SDN with OpenFlow textbook](SDN_OpenFlow.md) provides extensive directions with screen shots.
+Note: It might be possible to just use X11 forwarding via
+
+```bash
+apt-get -y update
+apt-get -y install xinit flwm
+startx
+```
