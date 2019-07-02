@@ -59,3 +59,9 @@ The biggest challenge to all of this is that it is still flow for many operation
 
 ![secret_sharing.png](secret_sharing.png)
 ![multiplication.png](multiplication.png)
+
+### The SPDZ Protocol, Part 1 (2017)
+
+A [detailed explaination](SPDZ_Protocol.pdf) of the protocol is provided by Dahl, along with Python code.
+
+There are lots of [additional information](https://mortendahl.github.io/2017/09/03/the-spdz-protocol-part1/) including an iPython notebook for exploring these examples.
