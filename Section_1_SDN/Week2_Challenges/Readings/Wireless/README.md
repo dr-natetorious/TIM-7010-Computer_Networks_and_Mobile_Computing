@@ -32,6 +32,6 @@ They argue that traditional networks will be insufficient to reach the required 
 
 ## From Raw Data to Smart Manufacturing: AI and Semantic Web of Things for Industry 4.0 (2018)
 
-The Web-of-Things referes to the fourth industrial revolution, that is expected from the unlocking of big data. This overlaps with the [Mangnus Frodigh KeyNote from ICSE](https://github.com/dr-natetorious/TIM-8101-Principals_of_Computer_Science/blob/master/Week5_Conferences/ICSE.docx). The direct link to that video can be found [here](https://www.youtube.com/watch?v=cpeMmMh7Syk).
+The Web-of-Things referes to the fourth industrial revolution, that is expected from the unlocking of big data. This overlaps with the [Mangnus Frodigh KeyNote during ICSE](https://github.com/dr-natetorious/TIM-8101-Principals_of_Computer_Science/blob/master/Week5_Conferences/ICSE.docx). The direct link to that video can be found [here](https://www.youtube.com/watch?v=cpeMmMh7Syk).
 
 Both presenters discuss the criticality of Industrial IoT and the wireless challenges that these systems will require. Consider the bandwidth and how a lack of QoS from cause safety systems to become unreliable.
