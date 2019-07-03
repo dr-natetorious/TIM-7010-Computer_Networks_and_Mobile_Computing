@@ -1,6 +1,6 @@
 # Section 1: Week 2: Formulate a Software Defined Networking Problem Statement
 
-For the first part of this week’s material, we will make sure that you are familiar with a basic concept of networking: [the open systems interconnection (OSI) model](Readings/OSI_Model.pdf). Network communication does not happen by magic; it requires several layers and components in order to ensure that data is efficiently and effectively transported across frequently vast distances. This is done by using the OSI model. There are seven layers that comprise the OSI model:
+For the first part of this week’s material, we will make sure that you are familiar with a basic concept of networking: [the open systems interconnection (OSI) model](Readings/OSI). Network communication does not happen by magic; it requires several layers and components in order to ensure that data is efficiently and effectively transported across frequently vast distances. This is done by using the OSI model. There are seven layers that comprise the OSI model:
 
 |Layer # | Layer Name | Examples| Description|
 |--------|----------  | ---------| ----------|
