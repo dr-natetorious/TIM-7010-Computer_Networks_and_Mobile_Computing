@@ -19,4 +19,3 @@ In highly dynamic environments such as (1) containerized/serverless computing; (
 New algorithms are required to partition the traffic such that the fewest reprogramming stages are required. The researchers touched on this problem with a distributed block memory solution, that divides each `mask lookup` across the entire RAM quad port (3 reads/1 write).
 
 ![dure_perf.png](dure_perf.png)
-
