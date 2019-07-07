@@ -18,12 +18,13 @@ Afterwards the integrity of the system can be validated for `k controllers`, pro
 
 ## Distributed Denial of Service
 
-### ANSwer: Combining NFV and SDN Features for Network Resilience Strategies
+These attacks [discussed in detail](DDos.md), come in two flavors:
 
-The authors proposed a solution that uses monitoring at the SDN controller level to detect network anomalies.
+- Network Layer Attacks (high volume, easy to detect)
+- Application Layer Attacks (arbitrary volume, hard to detect)
 
-When an anomaly is detected the system will attempt to remediate by deploying various complementary NFV devices.
+Different strategies are required to detect each scenario. Afterward, the system can respond with a `resiliency strategy` such as increasing scale or blocking a user.
 
-For instance, if a virtual honeypot is being attacked; then the SDN module will deploy additional an IDS/IPS solutions to that flow.
+Application Layer (e.g. HttpGet-Flooding) is becoming an ever complex categorization problem of `human, evil bot, and good bot`. This cat and mouse game is the current "big picture strategy" used to address these issues.
 
-As the attacks subside the additional protections can be terminated to improve network latency.
+One approach would be to dynamically deploy and configure NFV devices from SDN in response to changes in traffic patterns. Another solution would be to score the user traffic relative to the general population, this could be fed into a QoS model or some sort of priority queue structure.
