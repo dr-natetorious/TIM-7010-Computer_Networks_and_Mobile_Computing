@@ -30,4 +30,10 @@ Most of the investigation into SDN/QoS has been performed on small topologies an
 
 ## B4: Experience with a Globally-Deployed Software Defined WAN (2013)
 
-Google connected each of their data centers through a private WAN using OpenFlow. This is one of the largest published implementations of SDN
+Google connected each of their data centers through a private WAN using OpenFlow. This is one of the largest published implementations of SDN.
+
+They argue that traditional WANs are considered mission critical, and therefore are typically run at 30-40% utilization on top of highly specialized hardware. A missed packet is treated the same for every application and there is regard for application level reliability. Network providers can mask any failure by duplicating traffic as they have 2-3x bandwidth on high-end equipment.
+
+Instead they argue that (1) network failures are inevitable and common place, make the application handle it. (2) Using SDN enables central management of priorities and application routing. For instance, interactive traffic should be given priority and background copys throttled during congestion.
+
+Perhaps most importantly, we layered traffic engineering on top of baseline routing protocols using prioritized switch forwarding table entries (§ 5). This isolation gave our network a “big red button”; faced with any critical issues in traffic engineering, we could disable the service and fall back to shortest path forwarding. This fault recovery mechanism has proven invaluable.
