@@ -1,7 +1,10 @@
 # Section 1: Week 2: Formulate a Software Defined Networking Problem Statement
 
+## Deliverables
+
 - [Readings](Readings): Annotated bibliograph of resources used.
 - [Problem Statement](Week2_SDNProblem.docx): Discussed the impact of application level attacks and the need for more granular policy tables.
+- [Assignment Description](Assignment.md): Instructions for this weeks writing assignment.
 
 ## Theme of the week
 
