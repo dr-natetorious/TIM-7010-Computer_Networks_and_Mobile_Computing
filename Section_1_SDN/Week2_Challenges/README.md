@@ -1,5 +1,10 @@
 # Section 1: Week 2: Formulate a Software Defined Networking Problem Statement
 
+- [Readings](Readings): Annotated bibliograph of resources used.
+- [Problem Statement](Week2_SDNProblem.docx): Discussed the impact of application level attacks and the need for more granular policy tables.
+
+## Theme of the week
+
 For the first part of this week’s material, we will make sure that you are familiar with a basic concept of networking: [the open systems interconnection (OSI) model](Readings/OSI). Network communication does not happen by magic; it requires several layers and components in order to ensure that data is efficiently and effectively transported across frequently vast distances. This is done by using the OSI model. There are seven layers that comprise the OSI model:
 
 |Layer # | Layer Name | Examples| Description|
