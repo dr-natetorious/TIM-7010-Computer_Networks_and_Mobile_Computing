@@ -45,4 +45,8 @@ Applications are isolated as separate linux users and can chose to share the sam
 
 The authors propose going one step further and introduced a three-tier solution:
 
-- 
+- Application Layer
+- Virtual Memory Manager
+- Trusted Root
+
+Their model sounds like they copy pasted the approach used by desktop systems with `ring-0` and `ring-3` protected modes.
