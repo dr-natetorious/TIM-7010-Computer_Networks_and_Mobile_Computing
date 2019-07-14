@@ -31,3 +31,9 @@ From the survey they found that users responded better to the runtime dialogs, a
 This made users feel more safe about approving permissions and continuing forward. However, there needs to be additional research is needed as they are disassociating the permission and associating the confidence in the application ring. -- `"If chrome does it, and I trust Google; then it must be safe"`.
 
 There are also additional problems with the user flow as it halts the application and makes the user explicitly perform an action. This can be annoying especially if asked too many times. Basically they are describing the same challenges as `Windows Vista User Access Control (UAC)` as it was first released.
+
+## Improving Android Permissions Models for Increased User Awareness and Security (2018)
+
+Authors: Jeffrey Palmerino
+
+This is a summary submission of the above effort. Wonder if his team mates know that he is taking all the credit on this second printing?
