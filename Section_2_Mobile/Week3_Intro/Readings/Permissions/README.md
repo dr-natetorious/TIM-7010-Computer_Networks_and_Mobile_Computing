@@ -31,3 +31,12 @@ The main idea is to have introduce *multiple application contexts* to Android a 
 ![android_role_arch.png](android_role_arch.png)
 ![android_role_comp.png](android_role_comp.png)
 
+## Figment: Fine-grained Permission Management for Mobile Apps (2019)
+
+Authors: Ioannis Gasparis, Zhiyun Qian, Chengyu Song, Srikanth V. Krishnamurthy, Rajiv Gupta and Paul Yu
+
+Figment uses [Aspect Oriented Programming](https://github.com/dr-natetorious/TIM-8110-Programming_Languages_and_Algorithms/tree/master/Week2_AspectProgramming) to remove the cross cutting concerns around permissions and dynamically enabling those rights. If the users decide not to allow those permissions the application will continue to execute with reduced functionality.
+
+By encapsulting redundant code inside of attribute driven tags the framework is able to inject the code and reduce the overhead on developers. This encourages developers to annotate their code and do the right thing up front.
+
+Another feature looks at the dependency graph and attempts to determine if a revoked permission is critical or ignorable. If it is critical then it prompts the user with a notification that the revoke will result in a crash. Otherwise through _the magic of code weaving_ constructs code paths that avoid the denied invocation.
