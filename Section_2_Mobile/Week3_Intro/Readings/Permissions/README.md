@@ -40,3 +40,15 @@ Figment uses [Aspect Oriented Programming](https://github.com/dr-natetorious/TIM
 By encapsulting redundant code inside of attribute driven tags the framework is able to inject the code and reduce the overhead on developers. This encourages developers to annotate their code and do the right thing up front.
 
 Another feature looks at the dependency graph and attempts to determine if a revoked permission is critical or ignorable. If it is critical then it prompts the user with a notification that the revoke will result in a crash. Otherwise through _the magic of code weaving_ constructs code paths that avoid the denied invocation.
+
+## An Efficient Implementation of Next Generation Access Control for the Mobile Health Cloud (2018)
+
+Authors: Rejina Basnet, Subhojeet Mukherjee, Vignesh M. Pagadala, and Indrakshi Ray
+
+Mobile Health Care (mHealth) attempts to distribute medical informations in a reliable and privacy safe manner. This includes the need to reach different roles for various user personas-- such as patients, doctors, and insurance companies.
+
+These systems have traditionally relied on `RBAC solutions` as a mechanism to associate different levels of access for these different user scenarios. Alternative implementations have relied on `Attribute Based Access Control (ABAC)` -- such as "employee of legacy hospital" not "role:doctor". Both approaches attempt to solve the same problem by modeling it slightly differently.
+
+To improve on this experience the authors propose a `Policy Machine` that is represented as a directed acyclical graph (DAG). The graph is then used to examine relationships between objects with edges representing the allowances. This enables efficient searching and auditing of the permission model, which is otherwise complex for large distributed environments.
+
+Since the edges can be placed between any unique object this enables scenarios such as "release my cardiovasular records" do not release "my pyschiatric evaluation".
