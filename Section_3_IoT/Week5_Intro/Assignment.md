@@ -8,7 +8,7 @@ You should begin by reading the work by Ferati et al. that discusses requirement
 
 - What position does the paper take? What are some the primary arguments they are making, and what reasons do they have for backing up these claims?
 - Do you agree with the position taken in this paper? Use external sources to back up your argument.
-- How could the paper be improved? How could you expand upon this work? 
+- How could the paper be improved? How could you expand upon this work?
 
 This assignment well serve to help acclimate you with some of the challenges faced by special needs computing users.
 
