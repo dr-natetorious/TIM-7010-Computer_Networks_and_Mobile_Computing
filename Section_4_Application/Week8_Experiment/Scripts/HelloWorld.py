@@ -23,7 +23,7 @@ class MyTopo( Topo ):
         leftHost = self.addHost( 'h1' )
         rightHost = self.addHost( 'h2' )
         leftSwitch = self.addSwitch( 's3' )
-        rightSwitch = self.addSwitch( 's4' )
+        rightSwitch = self.addSwitch( 's4' )        
 
         # Add links
         self.addLink( leftHost, leftSwitch )
