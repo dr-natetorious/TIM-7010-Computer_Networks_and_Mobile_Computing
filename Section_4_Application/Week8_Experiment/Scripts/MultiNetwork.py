@@ -25,15 +25,16 @@ class NetworkTopo( Topo ):
     # Create the router
     router = self.addNode('r0', cls=LinuxRouter, ip='172.15.0.1/16')
     self.setup_switch_1(router)
+    self.setup_switch_2(router)
     
   def setup_switch_1(self, router):
     # Create the switch and link to router
     s1 = self.addSwitch('s1')
     self.addLink(s1, router,
-      intfName2='r0-sw1',
+      intfName2='r0-sw1-15',
       params2={'ip': '172.15.0.1/16'})
     self.addLink(s1, router,
-      intfName2='r0-sw2',
+      intfName2='r0-sw1-20',
       params2={'ip':'172.20.0.1/16'})
 
     # Add hosts attached to switch 1
@@ -52,6 +53,35 @@ class NetworkTopo( Topo ):
     self.addLink(h1, s1)
     self.addLink(h2, s1)
     return s1
+
+  def setup_switch_2(self, router):
+    s2 = self.addSwitch('s2')
+    h3 = self.addHost(
+      'h3',
+      ip='192.168.10.100/24',
+      defaultRoute='via 192.168.10.1'
+    )
+    h4 = self.addHost(
+      'h4',
+      ip='192.168.20.100/24',
+      defaultRoute='via 192.168.20.1'
+    )
+    h5 = self.addHost(
+      'h5',
+      ip='192.168.10.200/24',
+      defaultRoute='via 192.168.10.1'
+    )
+
+    self.addLink(s2, h3)
+    self.addLink(s2, h4)
+    self.addLink(s2, h5)
+
+    self.addLink(s2, router,
+      intfName2='r0-sw2-10',
+      params2={'ip': '192.168.10.1/24'})
+    self.addLink(s2, router,
+      intfName2='r0-sw2-20',
+      params2={'ip':'192.168.20.1/24'})
 
 def run():
     "Test linux router"
