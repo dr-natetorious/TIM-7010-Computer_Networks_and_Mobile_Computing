@@ -19,8 +19,7 @@ class LinuxRouter( Node ):
     super( LinuxRouter, self ).terminate()
 
 class NetworkTopo( Topo ):
-  "A LinuxRouter connecting three IP subnets"
-
+  
   def build( self, **_opts ):
     # Create the router
     router = self.addNode('r0', cls=LinuxRouter, ip='172.15.0.1/16')
