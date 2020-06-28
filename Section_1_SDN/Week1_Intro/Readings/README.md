@@ -42,6 +42,8 @@ The first four sections were studied during this week, and the final chapter wil
 
 ### SDN State of the Art and Research Challenges; Jammal, et al (2014)
 
+Jammal, Manar & Singh, Taranpreet & Shami, Abdallah & Asal, Rasool & Li, Yiming. (2014). Software-Defined Networking: State of the Art and Research Challenges. Computer Networks. 72. 10.1016/j.comnet.2014.07.004.
+
 The [article](State_of_art_research_challenges.pdf) begins with an overview of the benefits from using SDN and OpenFlow. This is followed with additional details of the architecture similar to Eissa's description, and not repeated here.
 
 Next definitions are provided for the entities involved in traffic management. These details extend [Azodolmolky chapter 4](SDN_OpenFlow.md) material with more concreete descriptions.
